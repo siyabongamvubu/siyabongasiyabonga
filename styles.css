@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./siyabonga.jpg) no-repeat center center/cover;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+    border: 2px white;
+}
+header{
+    background-color: black;
+}
+header nav h1{
+    float: left;
+    padding: 10px;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li{
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+header nav ul li a:hover{
+    color: white;
+    background-color: rgb(233, 102, 102);
+}
+h1.intro{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    margin: 40px;
+}
+form{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(50, 231, 156);
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+form label{
+    display: block;
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]
+form input[type="confirm password"]
+
+{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size:10px;
+}
+
+form input[type="submit"]{
+    display: block;
+    margin: 15px;
+    width: 50%;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+#Login-linK{color: blue; /*set the color value you desire, such as blue}
